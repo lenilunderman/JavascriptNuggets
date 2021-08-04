@@ -28,7 +28,7 @@ const names = people.map(person => {
     const namesUppercase = person.name.toUpperCase()
     return namesUppercase
 })
-console.table(names)
+//console.table(names)
 
 // Creating a new object from an array
 const newPeople = people.map(person => {
@@ -37,7 +37,7 @@ const newPeople = people.map(person => {
         oldage: person.age + 100
     }
 })
-console.table(newPeople)
+//console.table(newPeople)
 
 // Displaying it on the screen
 const users = people.map((person) => `<h2> ${person.name} </h2>`)
